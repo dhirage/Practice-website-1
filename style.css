@@ -1,0 +1,116 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+body{
+    color: white;
+    background: url('image/banner.jpg');
+    font-family: 'Heebo', sans-serif;
+    margin: 0PX;
+    padding: 0px;
+    
+}
+ /* .header{
+    background-color: rgb(96, 6, 6);
+    height: 40px;
+} */
+.left{
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    left: 45px;
+    top: 15px;
+}
+.left img{
+    width: 90px;
+    height: 50px;
+    margin: 5px;    
+}
+.left div{
+    text-align: center;
+    font-size: 10px;
+    line-height: 0px;
+    font-weight: bold;
+    color: rgb(217, 217, 255);
+}
+.mid{
+    display: block;
+    /* width: 36%; */
+    margin: 15px auto;
+    text-align: center;
+    /* border: 2px solid red; */
+
+}
+.right{
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    /* border: 2px solid blue; */
+    display: inline-block;
+}
+.navbar{
+    display: inline-block;
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+}
+.navbar li a:hover, .navbar li a:active{
+    text-decoration: underline;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    color: black;
+    font-weight: bold;
+
+}
+.btn{
+    margin: 0 5px;
+    padding: 5px 15px;
+    background-color: black;
+    color: rgb(203, 226, 246);
+    border-radius: 3px;
+    border: 2px solid rgb(83, 0, 0);
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: rgb(9, 251, 243);
+    color: white;
+    font-weight: bold;
+}
+.container{
+    font-family: 'Heebo', sans-serif;
+    border: 2px solid white;
+    margin: 100px 40px;
+    padding: 50px;
+    width: 40%;
+    border-radius: 20px;
+}
+
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 370px;
+    margin: 10px auto;
+    border: 2px solid gray;
+    font-size: 24px;
+    border-radius: 6px;
+
+}
+.container h1{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.container button{
+    display: block;
+    width: 370px;
+    margin: 10px auto;
+}
